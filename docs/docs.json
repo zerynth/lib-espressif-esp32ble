@@ -1,0 +1,9 @@
+{
+	"version":"1.0.0",
+	"title":"esp32ble",
+	"copyright":"Zerynth Team",
+	"files":[
+		["ESP32 BLE","esp32ble.py"]
+	]
+}
+
