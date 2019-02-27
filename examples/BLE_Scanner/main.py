@@ -22,8 +22,8 @@ scan_time=30000
 
 def scan_report_cb(data):
     print("Detected packet from",ble.btos(data[4]),"containing",ble.btos(data[3]))
-    print("         packet is of type",ble.btos(data[0]),"while address is of type",ble.btos(data[1]))
-    print("         remote device has RSSI of",ble.btos(data[2]))
+    print("         packet is of type",data[0],"while address is of type",data[1])
+    print("         remote device has RSSI of",data[2])
 
 def scan_start_cb(data):
     print("Scan started")
