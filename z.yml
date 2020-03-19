@@ -3,7 +3,7 @@ description: Driver for ESP32 BLE
 fullname: lib.espressif.esp32ble
 info:
     chip_manufacturer: Espressif
-    chip_name: ESP32
+    chip_name: ESP32 BLE
     name: BLE Driver
     type: Connectivity
 keywords:
